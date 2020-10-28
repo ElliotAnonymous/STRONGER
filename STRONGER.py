@@ -42,6 +42,8 @@ while(True):
     
       print (Fore.YELLOW+"\n  𝑃𝑎𝑠𝑠𝑤𝑜𝑟𝑑  >>>", PassWord)
       print(Style.RESET_ALL)
+      print(Fore.GREEN +" \n  ɴᴏᴛᴇ ⤶ \n  ᴀꜰᴛᴇʀ ᴄᴏᴘʏɪɴɢ ᴘᴀꜱꜱᴡᴏʀᴅ,\n  ꜱᴀᴠᴇ ʏᴏᴜʀ ᴘᴀꜱꜱᴡᴏʀᴅ ᴀɴᴅ ꜱᴀᴠᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ɴᴏᴛᴇᴘᴀᴅ ! ")
+      print(Style.RESET_ALL)
     
   if Choice == 3 :
       print()
