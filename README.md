@@ -1,4 +1,4 @@
-# PASS_GENERATOR
+# stronger
 pkg install python3
 
 
