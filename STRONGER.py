@@ -39,7 +39,9 @@ while(True):
       gen = string.ascii_letters + string.punctuation + string.digits
     
       PassWord = "".join(choice(gen) for x in range(randint(10, 30)))
-    
+      with open("SocialPasswords.txt", "a") as f :
+       f.write(f"Password >> {PassWord}")
+       f.write('\n')
       print (Fore.YELLOW+"\n  𝑃𝑎𝑠𝑠𝑤𝑜𝑟𝑑  >>>", PassWord)
       print(Style.RESET_ALL)
       print(Fore.GREEN +" \n  ɴᴏᴛᴇ ⤶ \n  ᴀꜰᴛᴇʀ ᴄᴏᴘʏɪɴɢ ᴘᴀꜱꜱᴡᴏʀᴅ,\n  ꜱᴀᴠᴇ ʏᴏᴜʀ ᴘᴀꜱꜱᴡᴏʀᴅ ᴀɴᴅ ꜱᴀᴠᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ɴᴏᴛᴇᴘᴀᴅ ! ")
